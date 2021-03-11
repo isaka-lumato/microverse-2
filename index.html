@@ -14,14 +14,23 @@
     <script  src="js/index.js"></script>
     Hello World, we are software developers!
     <form id="survey-form">
-     Name:
-      <input id="name"  name="name"  type="text" required>
-      
-     Email:
-      <input id="email"  name="email" type="email" required>
-      number:
-      <input id="number"  name="number"  type="number" required>
-      
+      <label id="name-label">
+        Name:
+        <input id="name"  name="name"  type="text" placeholder="Enter your name"required>
+      </label>
+      <label id="email-label">
+        Email:
+        <input id="email"  name="email" type="email" placeholder="Enter your email"required>
+      </label>
+      <label id="number-label">
+        number:
+        <input id="number"  name="number"  type="number" min="5" max="60" placeholder="Enter your favourite number"required>
+      </label>
+      <select id="dropdown">
+        <option value="YES"l>YES</option>
+        <option value="NO">NO</option>
+      </select>
+
     </form>
   </body>
 </html>
