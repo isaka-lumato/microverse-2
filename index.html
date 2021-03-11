@@ -2,24 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>hello world</title>
+    <title>microverse</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1 id="tittle">MICROVERSE SURVEY</h1>
+    <h1 id="title">MICROVERSE SURVEY</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <script  src="js/index.js"></script>
     Hello World, we are software developers!
     <form id="survey-form">
-      <label>Name:
-      <input name="name">
-      </label>
-      <label>Email:
-      <input name="E - mail">
-      </label>
+     Name:
+      <input id="name"  name="name"  type="text" required>
+      
+     Email:
+      <input id="email"  name="email" type="email" required>
+      number:
+      <input id="number"  name="number"  type="number" required>
+      
     </form>
   </body>
 </html>
